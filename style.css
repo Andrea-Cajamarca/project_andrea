@@ -1,0 +1,82 @@
+/*
+ Theme Name:   tk_donny
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     _tk-master
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+
+*/ 
+
+@import url("../_tk-master/style.css");
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #b3b3cc;
+}
+
+a {
+    * color: #ffffff; 
+    text-decoration: none;
+}
+
+.navbar-nav>li>a {
+    /* color: #777; */
+}
+
+a {
+    background-color: #ff6600;
+}
+
+h3 {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+ p  {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    background-color: #ff6600;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #2b3e50;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    /*background-color: #ffffff;*/
+}
+
+h1 {
+    margin: .67em 0;
+    margin-top: 0.67em;
+    margin-right: 250px;
+    margin-bottom: 0.67em;
+    margin-left: 0px;
+    font-size: 2em;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    color: #2b3e50;
+}
